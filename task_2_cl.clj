@@ -1,3 +1,5 @@
+; Algorithm: https://web.archive.org/web/20150710134640/http://diditwith.net/2009/01/20/YAPESProblemSevenPart2.aspx
+
 (defn get-all-primes
   []
   (letfn [(reinsert [table x prime]
